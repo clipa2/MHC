@@ -1,35 +1,23 @@
-# The Effects of Mental Health Court Diversion Programs on Crime and Homelessness
-Data repository for paper that evaluates the effects of mental health courts (MHCs) on crime and homelessness
+# The Effects of Mental Health Court Diversion Programs on Crime
+Data repository for paper that evaluates the effects of mental health courts (MHCs) on crime
 
 
 ## Order of Code
 
-**crime_analysis.do**: runs regressions for total, violent, and property crime per 10,000
-
-**homelessness_analysis.do**: runs regressions for homelessness per 10,000
-
-**event_study.do**: runs event study (code modified from https://stats.github.io/Model_Estimation/Research_Design/event_study.html)
+**crime_analysis.do**: runs regressions for total, violent, and property crime per 10,000 and specific types of crime; outputs event study figures
 
 **heterogeneity_check.do**: runs heterogeneity regressions for crime per 10,000
 
-**robustness_check.do**: runs robustness checks for total, violent, and property crime per 10,000 and homelessness
+**robustness_check.do**: runs robustness checks for total, violent, and property crime per 10,000 
 
-**cost_benefit_analysis.do**: cost benefit analysis from paper
+**cost_effective_analysis.do**: cost effective analysis from paper
 
 
 ## Data provided
 
-**crime_data.dta**: main dataset for total, violent, and property crime analysis
-
-**homelessness_data.dta**: main dataset for homelessness analysis
-
-**crime_all_data.dta**: complete dataset for total, violent, and property crime regressions without population restriction
-
-**homeless_all_data.dta**: complete dataset for homelessness regressions without population restriction
+**panel.dta**: dataset before data is matched by characteristics
 
 **matched_crime_rates.csv**:  dataset for total, violent, and property crime matched by county characteristics for control and treatment groups
-
-**matched_homelessness.dta**: dataset for homelessness matched by county characteristics for control and treatment groups
 
 
 ## References/Original data sources
