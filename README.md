@@ -4,11 +4,11 @@ Data repository for paper that evaluates the effects of mental health courts (MH
 
 ## Order of Code
 
-**crime_analysis.do**: runs regressions for total, violent, and property crime per 10,000 and specific types of crime; outputs event study figures
+**crime_analysis.R**: runs regressions for total, violent, and property crime per 10,000 and specific types of crime; outputs event study figures
 
-**heterogeneity_check.do**: runs heterogeneity regressions for crime per 10,000
+**heterogeneity_check.R**: runs heterogeneity regressions for crime per 10,000
 
-**robustness_check.do**: runs robustness checks for total, violent, and property crime per 10,000 
+**robustness_check.R**: runs robustness checks for total, violent, and property crime per 10,000 
 
 **cost_effective_analysis.do**: cost effective analysis from paper
 
