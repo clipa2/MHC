@@ -4,6 +4,8 @@ Data repository for paper that evaluates the effects of mental health courts (MH
 
 ## Order of Code
 
+**matched_in_R.R**: creates dataset for analysis based on propensity score matching
+
 **crime_analysis.R**: runs regressions for total, violent, and property crime per 10,000 and specific types of crime; outputs event study figures
 
 **heterogeneity_check.R**: runs heterogeneity regressions for crime per 10,000
@@ -17,7 +19,7 @@ Data repository for paper that evaluates the effects of mental health courts (MH
 
 **panel.dta**: dataset before data is matched by characteristics
 
-**matched_crime_rates.csv**:  dataset for total, violent, and property crime matched by county characteristics for control and treatment groups
+**matched_crime.csv**:  dataset for total, violent, and property crime matched by county characteristics for control and treatment groups used in main analysis
 
 
 ## References/Original data sources
